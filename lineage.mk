@@ -35,7 +35,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="whyred" \
     PRODUCT_NAME="whyred" \
-    BUILD_FINGERPRINT="Xiaomi/whyred/whyred:7.1.1/NMF26X/V9.5.8.0.NCHCNFA:user/release-keys" \
-    PRIVATE_BUILD_DESC="whyred-user 7.1.1 NMF26X V9.5.8.0.NCHCNFA release-keys"
+    BUILD_FINGERPRINT="Xiaomi/whyred/whyred:7.1.1/NEIMEK/V9.5.4.0.NGI77B:user/release-keys" \
+    PRIVATE_BUILD_DESC="whyred-user 7.1.1 NEIMEK V9.5.4.0.NGI77B release-keys"
 
 TARGET_VENDOR := Xiaomi
