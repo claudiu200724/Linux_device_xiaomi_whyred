@@ -1335,15 +1335,17 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 
 # Thermal
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-normal.conf
 vendor/bin/thermal-engine
 vendor/lib/libthermalfeature.so
 -vendor/lib/libthermalclient.so
 vendor/lib64/libthermalfeature.so
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
+
+# Thermal modded files - from KradKJ
+vendor/etc/thermal-engine.conf
+vendor/etc/thermal-engine-map.conf
+vendor/etc/thermal-engine-normal.conf
 
 # Time services
 -vendor/app/TimeService/TimeService.apk
