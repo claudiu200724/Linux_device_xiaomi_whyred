@@ -155,7 +155,7 @@ USE_OPENGL_RENDERER := true
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # DT2W
-TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
+TARGET_TAP_TO_WAKE_NODE := "/sys/class/input/input2/wake_gesture"
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
