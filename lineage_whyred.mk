@@ -20,6 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/halium.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
+# Add VNDK Full :
+$(call inherit-product, vendor/vndk/whyred.mk)
+
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
