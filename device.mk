@@ -34,6 +34,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
+# Disable FakeSensorServer so UBports can use it
+MINIMEDIA_SENSORSERVER_DISABLE := 1
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
