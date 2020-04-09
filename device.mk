@@ -37,6 +37,29 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 # Disable FakeSensorServer so UBports can use it
 MINIMEDIA_SENSORSERVER_DISABLE := 1
 
+# Something is also missing here as well
+PRODUCT_PACKAGES += \
+    libmedia_omx \
+    android.frameworks.displayservice@1.0
+
+PRODUCT_PACKAGES += \
+    libion \
+    libmedia_compat_layer \
+    libsf_compat_layer \
+    libui_compat_layer
+
+# HuongfishOS droidmedia
+PRODUCT_PACKAGES += \
+    libdroidmedia \
+    minimediaservice \
+    minisfservice \
+    miniafservice
+
+# Ubuntu
+PRODUCT_PACKAGES += \
+    libbiometry_fp_api \
+    libubuntu_application_api
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
