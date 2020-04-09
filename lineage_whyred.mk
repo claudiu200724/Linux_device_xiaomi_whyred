@@ -1,4 +1,4 @@
-# 
+#
 # Copyright (C) 2018 The Mokee Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/halium.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 # Add VNDK Full :
-$(call inherit-product, vendor/vndk/whyred.mk)
+$(call inherit-product, vendor/vndk/vndk.mk)
 
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
